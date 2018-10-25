@@ -16,7 +16,7 @@ void job_Sequencing(struct JOB a[],int n){
 
     sort(a,a+n,comparision); //max to min Profit
 
-    //Finding max deadline => MAX Size of output Array
+    //Finding max deadline => MAX Size of output Array.
 
     int max_deadline=0;
     for(int i=0;i<n;i++){
